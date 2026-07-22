@@ -1,12 +1,12 @@
-public class ExtraLeche extends CafeDecorator {
+public class ExtraCaramelo extends CafeDecorator {
 
-    public ExtraLeche(Cafe cafeDecorado) {
+    public ExtraCaramelo(Cafe cafeDecorado) {
         super(cafeDecorado);
     }
 
     @Override
     public String getDescripcion() {
-        return cafeDecorado.getDescripcion() + ", Leche";
+        return cafeDecorado.getDescripcion() + ", Caramelo";
     }
 
     @Override
